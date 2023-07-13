@@ -1,0 +1,56 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.16",
+    "version": "1.0.0",
+    "id": "15166538-b618-4c7b-9871-2627db3b4245",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "Jonas und Aleks",
+        "websiteUrl": "https://localhost:53000",
+        "privacyUrl": "https://localhost:53000/index.html#/privacy",
+        "termsOfUseUrl": "https://localhost:53000/index.html#/termsofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Ps-local",
+        "full": "Projektseminar WInf"
+    },
+    "description": {
+        "short": "Stopwatch, Kommentare, Timestamps, Dashboard",
+        "full": "Als Team gemeinsam an verschieden Dateien arbeiten. Counter in Präsentationen. Unsichtbare Notizen als Admin. Redeanteil erfassen. Teilnehmer erfassen."
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [],
+    "composeExtensions": [],
+    "configurableTabs": [
+        {
+            "configurationUrl": "https://localhost:53000/index.html#/config",
+            "canUpdateConfiguration": true,
+            "scopes": [
+                "team"
+            ]
+        }
+    ],
+    "staticTabs": [
+        {
+            "entityId": "index0",
+            "name": "Personal Tab",
+            "contentUrl": "https://localhost:53000/index.html#/tab",
+            "websiteUrl": "https://localhost:53000/index.html#/tab",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "localhost:53000"
+    ],
+    "showLoadingIndicator": false
+}
