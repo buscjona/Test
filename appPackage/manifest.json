@@ -52,5 +52,9 @@
   "validDomains": [
       "${{TAB_DOMAIN}}"
   ],
-  "showLoadingIndicator": false
+  "showLoadingIndicator": false,
+  "webApplicationInfo": {
+    "id": "6d0c1b1b-49c2-4cd5-a9c7-54f32e98ba2e",
+    "resource": "api://localhost/6d0c1b1b-49c2-4cd5-a9c7-54f32e98ba2e"
+  }
 }
