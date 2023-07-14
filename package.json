@@ -6,6 +6,7 @@
     },
     "private": true,
     "dependencies": {
+        "@azure/msal-node": "^1.18.0",
         "@fluentui/react-charting": "^5.14.10",
         "@fluentui/react-components": "^9.18.0",
         "@fluentui/react-icons": "^2.0.186",
@@ -13,10 +14,15 @@
         "@microsoft/teams-js": "^2.13.0",
         "@microsoft/teamsfx": "^2.2.0",
         "@microsoft/teamsfx-react": "^3.0.0",
+        "crypto-browserify": "^3.12.0",
+        "https-browserify": "^1.0.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-router-dom": "^6.8.0",
-        "react-scripts": "^5.0.1"
+        "react-scripts": "^5.0.1",
+        "stream-browserify": "^3.0.0",
+        "stream-http": "^3.2.0",
+        "util": "^0.12.5"
     },
     "devDependencies": {
         "env-cmd": "^10.1.0",
